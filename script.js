@@ -1,3 +1,4 @@
+// Change A
 document.addEventListener('DOMContentLoaded', () => {
     const countrySelect = document.getElementById('country-select');
     const spinner = document.getElementById('spinner-container');

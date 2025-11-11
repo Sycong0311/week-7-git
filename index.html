@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 6 - Country App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Country information</h2>
+
+      <select id="country-select">
+        <option value="--select--">--select--</option>
+        <option value="Australia">Australia</option>
+        <option value="Japan">Japan</option>
+        <option value="Poland">Poland</option>
+        <option value="Vietnam">Vietnam</option>
+        <option value="Brazil">Brazil</option>
+      </select>
+
+      <div class="table-container">
+        <table id="info-table">
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td id="data-name"></td>
+            </tr>
+            <tr>
+              <td>Official name</td>
+              <td id="data-official-name"></td>
+            </tr>
+            <tr>
+              <td>Capital city</td>
+              <td id="data-capital"></td>
+            </tr>
+            <tr>
+              <td>Language</td>
+              <td id="data-language"></td>
+            </tr>
+            <tr>
+              <td>Google Map Link</td>
+              <td id="data-map"></td>
+            </tr>
+            <tr>
+              <td>Population</td>
+              <td id="data-population"></td>
+            </tr>
+            <tr>
+              <td>Flag</td>
+              <td id="data-flag"></td>
+            </tr>
+            <tr>
+              <td>Capital City Latitude & Longitude</td>
+              <td id="data-latlng"></td>
+            </tr>
+            <tr>
+              <td>Total rainfall in 24 hours</td>
+              <td id="data-rain"></td>
+            </tr>
+            <tr>
+              <td>Average temperature in 24 hours</td>
+              <td id="data-temp"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div id="spinner-container">
+          <img
+            id="loading-spinner"
+            src="https://frontend-mtft.infinityfreeapp.com/week6/loading.gif"
+            alt="Loading..."
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
